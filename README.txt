@@ -1,16 +1,18 @@
-SECURE WEBSITE PACKAGE
+SECURE WEBSITE
 
 Files:
-- index.html: website content
-- style.css: responsive black-and-white styling
-- script.js: mobile navigation and footer year
-- logo.svg: original SECURE shield-and-lock logo
+- index.html: main website page (used by GitHub Pages)
+- style.css: website styling
+- script.js: small page script
+- logo.svg: SECURE shield logo
+- main.py: optional local Python preview server
 
-How to use:
-1. Extract this ZIP.
-2. Upload all four files to a static website host, keeping them in the same folder.
-3. Set the site's main page to index.html.
+IMPORTANT:
+GitHub Pages does not execute main.py. It publishes the static website files.
+For GitHub Pages, upload all files to your repository and enable Pages in
+Settings > Pages. Keep index.html in the published root folder.
 
-Note:
-This is a standard static website ZIP. Canva Websites does not import HTML ZIP files.
-The Invite SECURE and Support buttons already use the links supplied by the site owner.
+To preview locally with Python installed:
+1. Open a terminal in this folder.
+2. Run: python main.py
+3. Visit: http://localhost:8000
